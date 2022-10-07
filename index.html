@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>🚀Examples</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <!--Input-->
+        <div class="col">
+          <h4>Input</h4>
+
+          <p>seed</p>
+          <div class="changing-info">7825</div>
+
+          <p>width</p>
+          <div class="changing-info">512</div>
+
+          <p>height</p>
+          <div class="changing-info">512</div>
+
+          <p>prompt_end</p>
+          <div class="changing-info">
+            the tall neon covered skyline of paris in 2050, science fiction,
+            space ships, cgsociety, space art, matte painting, redshift, concept
+            art
+          </div>
+
+          <p>prompt_start</p>
+          <div class="changing-info">
+            the low skyline of medieval paris, cgsociety, concept art
+          </div>
+
+          <p>gif_ping_pong</p>
+          <div class="check-mark">✅</div>
+
+          <p>output_format</p>
+          <div class="changing-info">mp4</div>
+
+          <p>guidance_scale</p>
+          <div class="changing-info">7.5</div>
+
+          <p>prompt_strength</p>
+          <div class="changing-info">0.7</div>
+
+          <p>film_interpolation</p>
+          <div class="check-mark">✅</div>
+
+          <p>num_inference_steps</p>
+          <div class="changing-info">50</div>
+
+          <p>num_animation_frames</p>
+          <div class="changing-info">20</div>
+
+          <p>gif_frames_per_second</p>
+          <div class="changing-info">20</div>
+
+          <p>num_interpolation_steps</p>
+          <div class="changing-info">5</div>
+          <button>
+            <span class="material-symbols-outlined" id="tweak-icon">
+              multiple_stop
+            </span>
+            Tweak it
+          </button>
+        </div>
+        <!--OUTput-->
+        <div class="col">
+          <h4>Output</h4>
+          <video src="video/output.mp4" controls autoplay></video>
+
+          <button>
+            <span class="material-symbols-outlined" id="report-icon">
+              report
+            </span>
+            Report
+          </button>
+        </div>
+      </div>
+      <hr />
+    </div>
+  </body>
+</html>
