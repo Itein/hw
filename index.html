@@ -11,10 +11,11 @@
       integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
       crossorigin="anonymous"
     />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
-    />
+    <script
+      src="https://kit.fontawesome.com/f3c264e434.js"
+      crossorigin="anonymous"
+    ></script>
+
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
@@ -23,6 +24,37 @@
   </head>
   <body>
     <div class="container">
+      <h3>
+        <a href="#" class="about-owner">andreasjansson</a
+        ><span class="about-owner"> / </span>stable-diffusion-animation
+      </h3>
+      <!--Publick part-->
+      <div class="row">
+        <!--Globe-->
+        <div class="col">
+          <span class="public">
+            <span class="material-symbols-outlined" id="globe"> language </span
+            >PUBLIK
+          </span>
+          <span>
+            public Animate Stable Diffusion by interpolating between two prompts
+          </span>
+        </div>
+        <!--Buttons-->
+        <div class="col fake-button">
+          <span class="runs-amount">
+            <span class="material-symbols-outlined" id="rocket">
+              rocket_launch
+            </span>
+            14.5K runs
+          </span>
+          <a href="#" class="git"><i class="fa-brands fa-github"></i>GitHub</a>
+          <a href="#" class="license"
+            ><i class="fa-solid fa-scale-balanced"></i>License</a
+          >
+        </div>
+      </div>
+      <!--Main part-->
       <div class="row">
         <!--Input-->
         <div class="col">
@@ -50,7 +82,7 @@
           </div>
 
           <p>gif_ping_pong</p>
-          <div class="check-mark">✅</div>
+          <span class="material-symbols-outlined check_box"> check_box </span>
 
           <p>output_format</p>
           <div class="changing-info">mp4</div>
@@ -62,7 +94,7 @@
           <div class="changing-info">0.7</div>
 
           <p>film_interpolation</p>
-          <div class="check-mark">✅</div>
+          <span class="material-symbols-outlined check_box"> check_box </span>
 
           <p>num_inference_steps</p>
           <div class="changing-info">50</div>
@@ -79,7 +111,7 @@
             <span class="material-symbols-outlined" id="tweak-icon">
               multiple_stop
             </span>
-            Tweak it
+            Tweak It
           </button>
         </div>
         <!--OUTput-->
@@ -93,6 +125,7 @@
             </span>
             Report
           </button>
+          <div class="logs">>_ <a href="#">Show logs</a></div>
         </div>
       </div>
       <hr />

@@ -14,3 +14,103 @@
 p {
   margin-bottom: 0.5rem;
 }
+button {
+  border-color: rgba(0, 0, 0);
+  border-radius: 0.375rem;
+  border-width: 1px;
+  display: block;
+  margin-bottom: 24px;
+  padding: 12px;
+  background-color: transparent;
+  font-size: 16px;
+  text-align: center;
+}
+#tweak-icon {
+  position: relative;
+  top: 7px;
+}
+#report-icon {
+  position: relative;
+  top: 6px;
+}
+.logs,
+a {
+  font-size: 12px;
+  line-height: 18px;
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  color: black;
+  text-decoration: underline;
+  cursor: pointer;
+}
+video {
+  margin-bottom: 20px;
+}
+h4 {
+  margin-bottom: 25px;
+}
+
+h3,
+.about-owner {
+  margin: 48px 0 24px;
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: inherit;
+}
+.about-owner {
+  color: rgba(0, 0, 0, 0.45);
+}
+a.about-owner {
+  text-decoration: underline;
+}
+a.about-owner:hover {
+  color: rgba(0, 0, 0, 0.45);
+}
+.public {
+  font-size: 14px;
+  border-radius: 9999px;
+  background-color: rgba(0, 0, 0, 0.05);
+  padding: 4px 10px 4px;
+  margin-right: 0.5rem;
+}
+#globe {
+  position: relative;
+  top: 7px;
+  font-size: 24px;
+}
+ul {
+  display: inline;
+  list-style-type: none;
+}
+.runs-amount {
+  border-radius: 9999px;
+  border: 1px solid rgba(0, 0, 0, 0.09);
+  padding: 6px 10px 6px;
+  margin-left: 12px;
+}
+#rocket {
+  font-size: 20px;
+}
+.git,
+.license {
+  border-radius: 9999px;
+  border: 1px solid black;
+  padding: 8px 16px 8px;
+}
+a.git,
+a.license {
+  font-size: 16px;
+  margin-left: 12px;
+}
+a.git:hover,
+a.license:hover {
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.45);
+  color: white;
+  border-color: transparent;
+}
+.fake-button {
+  text-align: right;
+}
