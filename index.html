@@ -24,6 +24,21 @@
   </head>
   <body>
     <div class="container">
+      <!--Top-->
+      <div class="row top">
+        <div class="col replicate">
+          <a href="#" class="replicate">Replicate</a>
+        </div>
+        <div class="col for-start">
+          <a href="#" class="top-part">Explore </a>
+          <a href="#" class="top-part">Pricing</a>
+          <a href="#" class="top-part">Docs</a>
+          <a href="#" class="top-part">Blog</a>
+          <a href="#" class="top-part">Sign in</a>
+          <a href="#" class="start-link">Get started</a>
+        </div>
+      </div>
+      <!--Owner-->
       <h3>
         <a href="#" class="about-owner">andreasjansson</a
         ><span class="about-owner"> / </span>stable-diffusion-animation
@@ -37,7 +52,7 @@
             >PUBLIK
           </span>
           <span>
-            public Animate Stable Diffusion by interpolating between two prompts
+            Animate Stable Diffusion by interpolating between two prompts
           </span>
         </div>
         <!--Buttons-->
@@ -54,7 +69,28 @@
           >
         </div>
       </div>
-      <!--Main part-->
+      <!--Versions-->
+      <div class="row versions">
+        <div class="col">
+          <a href="#" class="different-versions"
+            ><span class="material-symbols-outlined" id="document">
+              description
+            </span>
+            Overview</a
+          >
+          <a href="#" class="different-versions active"
+            ><span class="material-symbols-outlined" id="book"> book </span>
+            Examples</a
+          >
+          <a href="#" class="different-versions"
+            ><span class="material-symbols-outlined" id="clock"> history </span
+            >Versions</a
+          >
+        </div>
+        <div class="col"></div>
+      </div>
+      <hr />
+      <!--Main part 0-->
       <div class="row">
         <!--Input-->
         <div class="col">
@@ -118,6 +154,565 @@
         <div class="col">
           <h4>Output</h4>
           <video src="video/output.mp4" controls autoplay></video>
+
+          <button>
+            <span class="material-symbols-outlined" id="report-icon">
+              report
+            </span>
+            Report
+          </button>
+          <div class="logs">>_ <a href="#">Show logs</a></div>
+        </div>
+      </div>
+      <hr />
+
+      <!--Main part 1-->
+      <div class="row">
+        <!--Input-->
+        <div class="col">
+          <p>seed</p>
+          <div class="changing-info">41784</div>
+
+          <p>width</p>
+          <div class="changing-info">512</div>
+
+          <p>height</p>
+          <div class="changing-info">512</div>
+
+          <p>prompt_end</p>
+          <div class="changing-info">
+            a person stepping out of the painting, holding the frame, a fine art
+            painting by Michelangelo Merisi da Caravaggio, featured on
+            instagram, classical realism, art on instagram, academic art, art
+          </div>
+
+          <p>prompt_start</p>
+          <div class="changing-info">
+            a person sitting in a chair, a fine art framed painting by
+            Michelangelo Merisi `da Caravaggio, featured on instagram, classical
+            realism, art on instagram, academic art, art
+          </div>
+
+          <p>gif_ping_pong</p>
+          <span class="material-symbols-outlined check_box"> check_box </span>
+
+          <p>output_format</p>
+          <div class="changing-info">mp4</div>
+
+          <p>guidance_scale</p>
+          <div class="changing-info">7.5</div>
+
+          <p>prompt_strength</p>
+          <div class="changing-info">0.7</div>
+
+          <p>film_interpolation</p>
+          <span class="material-symbols-outlined check_box"> check_box </span>
+
+          <p>num_inference_steps</p>
+          <div class="changing-info">50</div>
+
+          <p>num_animation_frames</p>
+          <div class="changing-info">20</div>
+
+          <p>gif_frames_per_second</p>
+          <div class="changing-info">20</div>
+
+          <p>num_interpolation_steps</p>
+          <div class="changing-info">5</div>
+          <button>
+            <span class="material-symbols-outlined" id="tweak-icon">
+              multiple_stop
+            </span>
+            Tweak It
+          </button>
+        </div>
+        <!--OUTput-->
+        <div class="col">
+          <video src="video/output (1).mp4" controls autoplay></video>
+
+          <button>
+            <span class="material-symbols-outlined" id="report-icon">
+              report
+            </span>
+            Report
+          </button>
+          <div class="logs">>_ <a href="#">Show logs</a></div>
+        </div>
+      </div>
+      <hr />
+
+      <!--Main part 2-->
+      <div class="row">
+        <!--Input-->
+        <div class="col">
+          <p>width</p>
+          <div class="changing-info">512</div>
+
+          <p>height</p>
+          <div class="changing-info">512</div>
+
+          <p>prompt_end</p>
+          <div class="changing-info">
+            travel into another dimension, geometric, sparkling, flashing,
+            astral
+          </div>
+
+          <p>prompt_start</p>
+          <div class="changing-info">kaleidoscopic hyperspace vortex</div>
+
+          <p>gif_ping_pong</p>
+          <span class="material-symbols-outlined check_box"> check_box </span>
+
+          <p>output_format</p>
+          <div class="changing-info">mp4</div>
+
+          <p>guidance_scale</p>
+          <div class="changing-info">7.5</div>
+
+          <p>prompt_strength</p>
+          <div class="changing-info">0.9</div>
+
+          <p>film_interpolation</p>
+          <span class="material-symbols-outlined check_box"> check_box </span>
+
+          <p>num_inference_steps</p>
+          <div class="changing-info">50</div>
+
+          <p>num_animation_frames</p>
+          <div class="changing-info">20</div>
+
+          <p>gif_frames_per_second</p>
+          <div class="changing-info">20</div>
+
+          <p>num_interpolation_steps</p>
+          <div class="changing-info">3</div>
+          <button>
+            <span class="material-symbols-outlined" id="tweak-icon">
+              multiple_stop
+            </span>
+            Tweak It
+          </button>
+        </div>
+        <!--OUTput-->
+        <div class="col">
+          <video src="video/output (2).mp4" controls autoplay></video>
+
+          <button>
+            <span class="material-symbols-outlined" id="report-icon">
+              report
+            </span>
+            Report
+          </button>
+          <div class="logs">>_ <a href="#">Show logs</a></div>
+        </div>
+      </div>
+      <hr />
+      <!--Main part 3-->
+      <div class="row">
+        <!--Input-->
+        <div class="col">
+          <p>width</p>
+          <div class="changing-info">512</div>
+
+          <p>height</p>
+          <div class="changing-info">512</div>
+
+          <p>prompt_end</p>
+          <div class="changing-info">
+            tall rectangular black monolith, a white room in the future with a
+            bed, victorian details and a tall black monolith, a detailed matte
+            painting by Wes Anderson, behance, light and space, reimagined by
+            industrial light and magic, matte painting, criterion collection
+          </div>
+
+          <p>prompt_start</p>
+          <div class="changing-info">
+            tall rectangular black monolith, monkeys in the desert looking at a
+            large tall monolith, a detailed matte painting by Wes Anderson,
+            behance, light and space, reimagined by industrial light and magic,
+            matte painting, criterion collection
+          </div>
+
+          <p>gif_ping_pong</p>
+          <span class="material-symbols-outlined check_box"> check_box </span>
+
+          <p>output_format</p>
+          <div class="changing-info">mp4</div>
+
+          <p>guidance_scale</p>
+          <div class="changing-info">7.5</div>
+
+          <p>prompt_strength</p>
+          <div class="changing-info">0.9</div>
+
+          <p>film_interpolation</p>
+          <span class="material-symbols-outlined check_box"> check_box </span>
+
+          <p>num_inference_steps</p>
+          <div class="changing-info">50</div>
+
+          <p>num_animation_frames</p>
+          <div class="changing-info">25</div>
+
+          <p>gif_frames_per_second</p>
+          <div class="changing-info">20</div>
+
+          <p>num_interpolation_steps</p>
+          <div class="changing-info">5</div>
+          <button>
+            <span class="material-symbols-outlined" id="tweak-icon">
+              multiple_stop
+            </span>
+            Tweak It
+          </button>
+        </div>
+        <!--OUTput-->
+        <div class="col">
+          <video src="video/output (3).mp4" controls autoplay></video>
+
+          <button>
+            <span class="material-symbols-outlined" id="report-icon">
+              report
+            </span>
+            Report
+          </button>
+          <div class="logs">>_ <a href="#">Show logs</a></div>
+        </div>
+      </div>
+      <hr />
+
+      <!--Main part 4-->
+      <div class="row">
+        <!--Input-->
+        <div class="col">
+          <p>width</p>
+          <div class="changing-info">1024</div>
+
+          <p>height</p>
+          <div class="changing-info">512</div>
+
+          <p>prompt_end</p>
+          <div class="changing-info">
+            the tall neon covered skyline of london in 2050, science fiction,
+            space ships, cgsociety, space ships, space art, matte painting,
+            redshift, concept art
+          </div>
+
+          <p>prompt_start</p>
+          <div class="changing-info">
+            the low skyline of medieval london, cgsociety, concept art
+          </div>
+
+          <p>gif_ping_pong</p>
+          <span class="material-symbols-outlined check_box"> check_box </span>
+
+          <p>output_format</p>
+          <div class="changing-info">mp4</div>
+
+          <p>guidance_scale</p>
+          <div class="changing-info">7.5</div>
+
+          <p>prompt_strength</p>
+          <div class="changing-info">0.7</div>
+
+          <p>film_interpolation</p>
+          <span class="material-symbols-outlined check_box"> check_box </span>
+
+          <p>num_inference_steps</p>
+          <div class="changing-info">50</div>
+
+          <p>num_animation_frames</p>
+          <div class="changing-info">40</div>
+
+          <p>gif_frames_per_second</p>
+          <div class="changing-info">20</div>
+
+          <p>num_interpolation_steps</p>
+          <div class="changing-info">5</div>
+          <button>
+            <span class="material-symbols-outlined" id="tweak-icon">
+              multiple_stop
+            </span>
+            Tweak It
+          </button>
+        </div>
+        <!--OUTput-->
+        <div class="col">
+          <video src="video/output (4).mp4" controls autoplay></video>
+
+          <button>
+            <span class="material-symbols-outlined" id="report-icon">
+              report
+            </span>
+            Report
+          </button>
+          <div class="logs">>_ <a href="#">Show logs</a></div>
+        </div>
+      </div>
+      <hr />
+
+      <!--Main part 5-->
+      <div class="row">
+        <!--Input-->
+        <div class="col">
+          <p>width</p>
+          <div class="changing-info">512</div>
+
+          <p>height</p>
+          <div class="changing-info">512</div>
+
+          <p>prompt_end</p>
+          <div class="changing-info">
+            the face of tom cruise smiling a happy smile, headshot
+          </div>
+
+          <p>prompt_start</p>
+          <div class="changing-info">
+            the face of tom cruise very angry, headshot
+          </div>
+
+          <p>gif_ping_pong</p>
+          <span class="material-symbols-outlined check_box"> check_box </span>
+
+          <p>output_format</p>
+          <div class="changing-info">mp4</div>
+
+          <p>guidance_scale</p>
+          <div class="changing-info">7.5</div>
+
+          <p>prompt_strength</p>
+          <div class="changing-info">0.75</div>
+
+          <p>film_interpolation</p>
+          <span class="material-symbols-outlined check_box"> check_box </span>
+
+          <p>num_inference_steps</p>
+          <div class="changing-info">50</div>
+
+          <p>num_animation_frames</p>
+          <div class="changing-info">10</div>
+
+          <p>gif_frames_per_second</p>
+          <div class="changing-info">20</div>
+
+          <p>num_interpolation_steps</p>
+          <div class="changing-info">5</div>
+          <button>
+            <span class="material-symbols-outlined" id="tweak-icon">
+              multiple_stop
+            </span>
+            Tweak It
+          </button>
+        </div>
+        <!--OUTput-->
+        <div class="col">
+          <video src="video/output (5).mp4" controls autoplay></video>
+
+          <button>
+            <span class="material-symbols-outlined" id="report-icon">
+              report
+            </span>
+            Report
+          </button>
+          <div class="logs">>_ <a href="#">Show logs</a></div>
+        </div>
+      </div>
+      <hr />
+
+      <!--Main part 6-->
+      <div class="row">
+        <!--Input-->
+        <div class="col">
+          <p>width</p>
+          <div class="changing-info">512</div>
+
+          <p>height</p>
+          <div class="changing-info">512</div>
+
+          <p>prompt_end</p>
+          <div class="changing-info">
+            an alien spaceship shaped like a butterfly with wings in space,
+            cgsociety
+          </div>
+
+          <p>prompt_start</p>
+          <div class="changing-info">a butterfly in space, cgsociety</div>
+
+          <p>gif_ping_pong</p>
+          <span class="material-symbols-outlined check_box"> check_box </span>
+
+          <p>output_format</p>
+          <div class="changing-info">mp4</div>
+
+          <p>guidance_scale</p>
+          <div class="changing-info">7.5</div>
+
+          <p>prompt_strength</p>
+          <div class="changing-info">0.9</div>
+
+          <p>film_interpolation</p>
+          <span class="material-symbols-outlined check_box"> check_box </span>
+
+          <p>num_inference_steps</p>
+          <div class="changing-info">50</div>
+
+          <p>num_animation_frames</p>
+          <div class="changing-info">10</div>
+
+          <p>gif_frames_per_second</p>
+          <div class="changing-info">20</div>
+
+          <p>num_interpolation_steps</p>
+          <div class="changing-info">5</div>
+          <button>
+            <span class="material-symbols-outlined" id="tweak-icon">
+              multiple_stop
+            </span>
+            Tweak It
+          </button>
+        </div>
+        <!--OUTput-->
+        <div class="col">
+          <video src="video/output (6).mp4" controls autoplay></video>
+
+          <button>
+            <span class="material-symbols-outlined" id="report-icon">
+              report
+            </span>
+            Report
+          </button>
+          <div class="logs">>_ <a href="#">Show logs</a></div>
+        </div>
+      </div>
+      <hr />
+
+      <!--Main part 7-->
+      <div class="row">
+        <!--Input-->
+        <div class="col">
+          <p>seed</p>
+          <div class="changing-info">30329</div>
+
+          <p>width</p>
+          <div class="changing-info">512</div>
+
+          <p>height</p>
+          <div class="changing-info">512</div>
+
+          <p>prompt_end</p>
+          <div class="changing-info">
+            an alien spaceship shaped like a butterfly with wings in space, high
+            detail, hi tech, sci fi, cgsociety
+          </div>
+
+          <p>prompt_start</p>
+          <div class="changing-info">a butterfly in space, cgsociety</div>
+
+          <p>gif_ping_pong</p>
+          <span class="material-symbols-outlined check_box"> check_box </span>
+
+          <p>output_format</p>
+          <div class="changing-info">mp4</div>
+
+          <p>guidance_scale</p>
+          <div class="changing-info">7.5</div>
+
+          <p>prompt_strength</p>
+          <div class="changing-info">0.6</div>
+
+          <p>film_interpolation</p>
+          <span class="material-symbols-outlined check_box"> check_box </span>
+
+          <p>num_inference_steps</p>
+          <div class="changing-info">50</div>
+
+          <p>num_animation_frames</p>
+          <div class="changing-info">20</div>
+
+          <p>gif_frames_per_second</p>
+          <div class="changing-info">20</div>
+
+          <p>num_interpolation_steps</p>
+          <div class="changing-info">3</div>
+          <button>
+            <span class="material-symbols-outlined" id="tweak-icon">
+              multiple_stop
+            </span>
+            Tweak It
+          </button>
+        </div>
+        <!--OUTput-->
+        <div class="col">
+          <video src="video/output (7).mp4" controls autoplay></video>
+
+          <button>
+            <span class="material-symbols-outlined" id="report-icon">
+              report
+            </span>
+            Report
+          </button>
+          <div class="logs">>_ <a href="#">Show logs</a></div>
+        </div>
+      </div>
+      <hr />
+
+      <!--Main part 8-->
+      <div class="row">
+        <!--Input-->
+        <div class="col">
+          <p>width</p>
+          <div class="changing-info">512</div>
+
+          <p>height</p>
+          <div class="changing-info">512</div>
+
+          <p>prompt_end</p>
+          <div class="changing-info">
+            symmetrical oak tree in a field, full of green leaves, lush, summer,
+            sunny
+          </div>
+
+          <p>prompt_start</p>
+          <div class="changing-info">
+            symmetrical oak tree in a field, without leaves, bare, winter, dark
+          </div>
+
+          <p>gif_ping_pong</p>
+          <span class="material-symbols-outlined check_box"> check_box </span>
+
+          <p>output_format</p>
+          <div class="changing-info">mp4</div>
+
+          <p>guidance_scale</p>
+          <div class="changing-info">7.5</div>
+
+          <p>prompt_strength</p>
+          <div class="changing-info">0.9</div>
+
+          <p>film_interpolation</p>
+          <span class="material-symbols-outlined check_box"> check_box </span>
+
+          <p>num_inference_steps</p>
+          <div class="changing-info">50</div>
+
+          <p>num_animation_frames</p>
+          <div class="changing-info">25</div>
+
+          <p>gif_frames_per_second</p>
+          <div class="changing-info">20</div>
+
+          <p>num_interpolation_steps</p>
+          <div class="changing-info">5</div>
+          <button>
+            <span class="material-symbols-outlined" id="tweak-icon">
+              multiple_stop
+            </span>
+            Tweak It
+          </button>
+        </div>
+        <!--OUTput-->
+        <div class="col">
+          <video src="video/output (8).mp4" controls autoplay></video>
 
           <button>
             <span class="material-symbols-outlined" id="report-icon">
