@@ -155,10 +155,13 @@ hr {
   font-size: 16px;
   padding: 0 12px;
 }
-.top-part:hover,
+
 .replicate:hover {
   text-decoration: none;
   color: rgba(0, 0, 0, 0.45);
+}
+.top-part:hover {
+  text-decoration: none;
 }
 .top {
   margin: 24px 0 84px;
