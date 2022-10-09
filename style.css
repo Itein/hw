@@ -170,6 +170,10 @@ hr {
   border-radius: 0.25rem;
   font-size: 16px;
 }
+.start-link:hover {
+  color: white;
+  text-decoration: none;
+}
 .for-start {
   text-align: right;
 }
